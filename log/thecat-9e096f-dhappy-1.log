@@ -1,0 +1,25 @@
+npx tsx src/monoflow2.ts thecatwasoldandhappy --cycles=1
+status: max-cycles cycles=1
+^ -> t
+a -> n, p, s, t
+c -> a
+d -> a, h, ha
+e -> c, ca
+h -> a, e
+l -> d, da
+n -> d
+o -> l
+p -> p, y
+s -> o
+t -> h, w, wa
+w -> a
+ca -> t
+da -> n
+ha -> p
+wa -> s
+tokens: 17
+tokens length >= 3: 0
+english length >= 3: 0/0 0.00%
+english sentences: 0/0 0.00%
+english dictionary: /usr/share/dict/american-english
+english dictionary entries: 102485

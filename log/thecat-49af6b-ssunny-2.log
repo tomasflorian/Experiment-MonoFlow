@@ -1,0 +1,30 @@
+npx tsx src/monoflow2.ts thecatwasoldandhappy --cycles=2
+^ -> t
+a -> n, p, s, so, t, y
+an -> d
+c -> a
+d -> a, an, h, l, lo, o
+do -> w
+e -> a, an, c, d, e
+g -> d, do
+h -> a, e
+i -> n, t
+in -> g
+k -> i, in
+l -> d, o, oo
+lo -> o
+n -> a, d, g, n, t, y
+nn -> y
+o -> k, l, n, o, w, wn
+on -> a
+oo -> k
+p -> p, y
+r -> e
+s -> o, on, s, u, un
+so -> l, n
+t -> h, r, w
+u -> n, nn
+un -> n
+w -> a, n
+wn -> t
+y -> i, w

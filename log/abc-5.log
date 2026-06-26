@@ -1,0 +1,11 @@
+npx tsx src/monoflow2.ts abc --cycles=5
+status: below-threshold cycles=0
+^ -> a
+a -> b
+b -> c
+tokens: 3
+tokens length >= 3: 0
+english length >= 3: 0/0 0.00%
+english sentences: 0/0 0.00%
+english dictionary: /usr/share/dict/american-english
+english dictionary entries: 102485

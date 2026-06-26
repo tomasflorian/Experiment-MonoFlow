@@ -1,0 +1,42 @@
+npx tsx src/monoflow2.ts thecatwasoldandhappyitwasonatreeandlookingdownthedaywassunny --cycles=3
+status: max-cycles cycles=3
+^ -> t
+a -> n, p, s, so, t, y
+c -> a
+d -> a, an, h, l, lo, o
+e -> a, an, and, c, ca, d, e
+g -> d, do
+h -> a, e, ed
+i -> n, t
+k -> i, in
+l -> d, o
+n -> a, d, g, n, t, y
+o -> k, l, n, o, w, wn
+p -> p, y
+r -> e
+s -> o, on, s, u, un
+t -> h, r, w, wa
+u -> n
+w -> a, n
+y -> i, w, wa
+an -> d
+ca -> t
+do -> wn
+ed -> a
+ha -> p
+in -> g
+ld -> and
+lo -> o
+na -> t
+on -> a
+so -> l, ld, n, na
+un -> n
+wa -> s, so
+wn -> t
+and -> ha, lo
+tokens: 36
+tokens length >= 3: 1
+english length >= 3: 1/1 100.00%
+english sentences: 0/0 0.00%
+english dictionary: /usr/share/dict/american-english
+english dictionary entries: 102485

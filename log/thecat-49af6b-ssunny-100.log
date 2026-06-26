@@ -1,0 +1,72 @@
+npx tsx src/monoflow2.ts thecatwasoldandhappyitwasonatreeandlookingdownthedaywassunny --cycles=100
+status: below-threshold cycles=15
+^ -> t, the, thecat-b63b99-oldand
+a -> n, p, s, so, t, y
+c -> a
+d -> a, an, h, l, lo, o
+e -> a, an, and, c, ca, d, e
+g -> d, do
+h -> a, e, ed
+i -> n, t
+k -> i, in
+l -> d, o
+n -> a, d, g, n, t, y
+o -> k, l, n, o, w, wn
+p -> p, py, y
+r -> e
+s -> o, on, s, u, un
+t -> h, he, r, re, w, wa
+u -> n
+w -> a, n
+y -> i, it, w, wa, was
+an -> d
+ca -> t
+da -> y
+do -> wn, wnt, wnthe
+ed -> a
+ha -> p
+he -> ca, cat, da, day
+in -> g, gdo, gdownthe
+it -> wa, waso
+ld -> and
+lo -> o, ok
+na -> t
+ok -> in
+on -> a
+py -> it, itwaso
+re -> e, eand
+so -> l, ld, n, na, nat
+un -> n, ny
+wa -> s, so
+wn -> t
+and -> ha, hap, lo
+cat -> wa, waso
+day -> was
+gdo -> wnthe
+hap -> py
+nat -> re
+sun -> ny
+the -> cat, catwaso, catwasoldand
+was -> s, sun
+wnt -> he
+eand -> lo
+waso -> ld, ldand, nat
+happy -> itwaso
+ldand -> hap, happy
+natre -> eand, eandlo
+wnthe -> day, daywas
+daywas -> sun
+eandlo -> ok
+itwaso -> nat, natre
+catwaso -> ldand
+gdownthe -> daywas
+happyitwaso -> natre
+catwasoldand -> happyi-ac1cfe-onatre, happyitwaso
+happyi-ac1cfe-onatre -> eandlo
+thecat-b63b99-oldand -> happyi-ac1cfe-onatre
+tokens: 71
+tokens length >= 3: 27
+english length >= 3: 9/27 33.33%
+english sentences: 0/0 0.00%
+english dictionary: /usr/share/dict/american-english
+english dictionary entries: 102485

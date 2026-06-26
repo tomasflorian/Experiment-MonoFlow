@@ -1,0 +1,200 @@
+npx tsx src/monoflow2.ts --file=frankenstein.txt --cycles=2
+status: max-cycles cycles=2
+  ->  , #, $, (, *, +, -, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, [, _, a, a , ae, b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, je, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, z, ze, —, ‘, “, •, • 
+_ ->  , ,, , , ., . , ;, ; , a, c, d, e, f, fe, g, h, he, i, i , j, k, ke, m, p, r, s, t, w, y, “, ”, ” 
+- ->  , 6, 9, a, b, be, c, d, de, e, f, fe, g, ge, h, he, i, k, ke, l, le, m, n, o, p, r, re, s, se, t, u, v, w
+— ->  , ., a, a , b, c, d, de, e, f, g, h, he, i, i , l, le, m, n, o, p, r, re, s, t, te, w, y, —, — , “, ”
+, ->  , 0, _, _ , a, a , b, be, c, d, de, e, f, fe, g, h, he, i, i , j, k, l, le, m, n, ne, o, p, pe, q, r, re, s, se, t, te, u, w, y, ye, —, ‘, ’, ’ , “, ”, ” , ” e
+; ->  , _, _ , a, b, e, f, h, he, i, i , j, l, le, m, o, r, s, t, te, y, ye, —, ‘, “
+: ->  , 1, t, —, — , “
+! ->  , ), ) , _, a, c, f, i, i , l, m, n, r, s, t, w, y, ye, —, ’, ’ , ’ e, “, “e, ”, ” 
+? ->  , a, b, be, d, h, he, i, i , m, n, t, w, we, y, ’, ’ , “, ”, ” 
+. ->  , *, 1, 1 , 2, 3, 4, 5, 6, 7, 7 , 8, 8 , 9, ], _, _ , a, a , b, be, c, c , d, de, e, e , f, g, h, he, i, i , i e, j, l, le, m, me, n, o, p, r, re, s, se, t, te, u, v, w, we, y, ye, —, ‘, ’, ’ , “, “e, ”, ” 
+‘ -> a, b, c, d, e, f, g, h, he, i, i , l, le, m, n, ne, o, o , p, t, w, we
+’ ->  , ,, , , c, d, d , e, r, s, s , s e, “
+“ -> _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, l, m, n, o, p, r, re, s, se, t, u, v, ve, w, we, y, ye, ‘, ‘e
+” ->  , ), ., ], a, a , b, c, d, f, h, he, i, i , j, m, n, o, s, se, t, te, w, we, y, —, “
+( -> $, 3, 8, a, b, c, d, f, g, i, i , j, m, o, s, t, w, “
+) ->  , (, ,, , , ., ;, ; , r, re, t
+[ -> c, e, t, w
+] ->  , a, c
+* ->  , *, * , * e, f
+/ -> 8, c, d, e, h, he, l
+# -> 5, 8
+% ->  
+• ->  
+^ -> t
++ -> 1, 1 
+$ -> 1, 1 , 5
+0 ->  , %, % , ), ) , ,, , , 0, 1, 2, 4, 7, i, i 
+1 ->  , (, ,, , , -, ., . , .e, 0, 0 , 1, 1 , 2, 2 , 3, 3 , 4, 4 , 5, 5 , 6, 6 , 7, 7 , 8, 8 , 9, 9 , _, i, i , s, t, “
+2 ->  , ), ) , ,, , , ., . , 0, 0 , 1, 1 , 2, 2 , 3, 3 , 4, 6, 7, 8, _, d, t, w, we, “
+3 ->  , ), ) , ) e, ,, , , ., . , 0, 0 , 1, _, i, t, w, “
+4 ->  , ,, , , -, ., . , . e, 1, 1 , 2, ], ] , _, c, f, l, le, m, “
+5 ->  , ,, ., . , 0, 0 , 1, 4, i, t, “
+6 ->  , ,, ., . , 0, 0 , 2, 4, c, l, t, “
+7 ->  , ., . , 0, o, t, —
+8 ->  , ., . , . e, 4, 6, 8, d, t, w, we
+9 ->  , ., . , 0, 0 , 2, 3, 3 , 9, l, n, t
+a ->  , !, ! , ), ) , ,, , , -, ., . , . e, :, : , ;, ; , ?, ? , a, b, be, c, c , ce, d, d , d e, de, e, e , f, f , fe, g, g , ge, h, he, i, ie, j, je, k, k , ke, l, l , l e, le, m, m , m e, me, n, n , n e, ne, o, p, p , p e, pe, q, r, r , r e, re, s, s , s e, se, t, t , t e, te, u, u , v, ve, w, w , w e, we, x, x , x e, xe, y, y , y e, ye, z, ze, —
+æ -> m, s
+b ->  , !, ! , ), ) , ,, , , ., . , ;, ; , a, b, be, d, e, e , h, i, ie, j, je, l, le, m, n, o, r, re, s, s , se, t, t , te, u, ue, v, y, y , y e, ye, —
+c ->  , ), ) , ,, , , ., . , ;, ; , a, a , b, c, ce, e, e , h, h , h e, he, i, ie, k, k , k e, ke, l, le, m, me, o, o , q, r, re, s, s , t, t , t e, te, u, ue, w, y, y , æ, —
+d ->  , !, ! , ! e, ), ) , ,, , , , e, ,e, -, ., . , . e, .e, :, : , ;, ; , ; e, ?, ? , _, a, a , b, be, c, d, d , de, e, e , f, fe, g, ge, h, he, i, i , ie, j, k, ke, l, le, m, me, n, ne, o, o , oe, p, pe, q, r, re, s, s , s e, se, t, te, u, u , ue, v, ve, w, we, y, y , y e, ye, z, ze, æ, ô, —, ’, ”, ” 
+e ->  , !, ! , (, ), ) , ,, , , -, ., . , :, : , ;, ; , ?, ? , _, _ , a, a , b, b , be, c, ce, d, d , d e, de, e, e , f, f , g, g , h, i, i , j, k, k , l, l , l e, m, m , me, n, n , n e, ne, o, p, p , p e, pe, q, r, r , re, s, s , s e, se, t, t , t e, te, u, u , v, ve, w, w , x, x , xe, y, y , ye, z, ze, —, ’
+é -> l
+è -> g
+ê -> n, ne, t, v, ve
+f ->  , !, ! , ), ) , ,, , , , e, -, -e, ., . , ;, ; , ?, ? , a, a , b, be, c, d, de, e, e , f, f , fe, g, ge, h, he, i, i , ie, j, k, l, le, m, me, n, ne, o, oe, p, pe, q, r, re, s, s , se, t, t , t e, te, u, ue, v, w, y, y , y e, —
+g ->  , !, ! , ), ,, , , -, ., . , /, /e, :, : , ;, ; , ?, ? , a, b, be, c, d, de, e, e , f, fe, g, ge, h, h , he, i, ie, l, le, m, me, n, n , ne, o, o , p, pe, r, re, s, s , s e, t, u, ue, v, w, we, y, y , —, ’, ”, ” , ™, ™ , ™ e, ™e
+h ->  , !, ! , ), ,, , , , e, ,e, -, -e, ., . , :, ;, ; , ?, ? , ? e, a, a , a e, ae, b, be, c, ce, d, de, e, e , f, g, ge, h, he, i, i , ie, j, k, l, le, m, me, n, n , ne, o, o , o e, oe, p, pe, q, r, re, s, s , se, t, t , t e, te, u, ue, w, we, y, y , y e, ê, —, ’
+i ->  , ,, , , ., . , ;, ; , ?, ? , _, _ , a, a , ae, b, be, c, c , ce, d, d , d e, de, e, e , f, f , f e, fe, g, ge, h, he, i, k, ke, l, l , l e, le, m, m , m e, me, n, n , n e, ne, o, p, p , pe, q, r, r , r e, re, s, s , s e, se, t, t , t e, te, u, v, ve, w, we, x, x , xe, z, ze, —, ”, ” 
+j ->  , a, e, o, u
+k ->  , !, ! , (, ,, , , , e, -, -e, ., . , /, ;, ; , ?, a, a , b, be, d, de, e, e , f, h, i, ie, l, le, m, me, n, ne, o, r, re, s, s , se, t, u, v, ve, w, y, y , y e, —
+l ->  , !, ! , ), ) , ,, , , , e, -, ., . , :, : , ;, ; , ; e, ?, ? , _, _ , a, a , b, be, c, d, d , d e, de, e, e , f, f , f e, fe, g, ge, h, he, i, i , ie, j, k, k , ke, l, l , l e, le, m, m , m e, me, n, ne, o, o , p, p , pe, q, r, re, s, s , s e, se, t, t , t e, te, u, ue, v, ve, w, we, y, y , y e, ye, è, ê, —, ’
+m ->  , !, ! , ), ,, , , , e, ., . , . e, .e, ;, ; , ; e, ?, ? , a, a , b, b , be, c, ce, e, e , f, g, ge, h, he, i, ie, l, l , le, m, me, n, n , n e, ne, o, o , p, p , pe, r, s, s , se, t, t , u, w, we, y, y , y e, ye, ô, —, ’
+n ->  , !, ! , ), ) , ,, , , , e, ,e, -, ., . , . e, .e, :, : , ;, ; , ?, ? , ], ] , _, a, a , b, be, c, c , ce, d, d , d e, de, e, e , f, fe, g, g , g e, ge, h, he, i, i , ie, j, j , je, k, k , k e, ke, l, le, m, me, n, n , ne, o, o , o e, oe, p, pe, q, r, re, s, s , s e, se, t, t , t e, te, u, ue, v, ve, w, we, x, y, y , y e, ye, z, —, ’, ”, ” 
+o ->  , !, ! , ,, , , , e, ., . , ;, ; , ?, ? , a, b, b , be, c, c , ce, d, d , d e, de, e, e , f, f , f e, fe, g, g , ge, h, he, i, j, je, k, k , k e, ke, l, l , le, m, m , m e, me, n, n , n e, ne, o, o , p, p , pe, q, r, r , r e, re, s, s , s e, se, t, t , t e, te, u, u , u e, ue, v, ve, w, w , w e, we, x, x , y, y , y e, ye, z, ze, ’
+ô -> l, le, m, me
+p ->  , !, ! , ,, , , -, ., . , :, : , ;, ; , ?, ? , a, a , d, de, e, e , g, g , h, h , he, i, i , ie, l, le, m, me, n, o, oe, p, pe, r, re, s, s , s e, se, t, t , te, u, w, y, y , y e, é, ê
+q -> ., . , u, ue
+r ->  , !, ! , ), ,, , , , e, -, -e, ., . , . e, :, : , ;, ; , ?, ? , _, _ , a, a , b, b , be, c, ce, d, d , de, e, e , f, fe, g, g , g e, ge, h, he, i, i , ie, j, k, k , k e, ke, l, l , l e, le, m, m , m e, me, n, n , n e, ne, o, oe, p, pe, r, re, s, s , s e, se, t, t , te, u, u , ue, v, ve, w, we, y, y , y e, ye, —, —e, ’, ”
+s ->  , !, ! , (, ), ) , ,, , , , e, ,e, -, ., . , . e, .e, /, 1, :, : , ;, ; , ?, ? , _, _ , a, a , b, be, c, ce, d, de, e, e , f, fe, g, ge, h, h , h e, he, i, i , ie, j, k, k , k e, ke, l, le, m, m , me, n, ne, o, o , o e, oe, p, p , pe, q, r, re, s, s , s e, se, t, t , t e, te, u, ue, v, ve, w, we, y, y , —, ’, ’ 
+t ->  , !, ! , (, ), ) , ,, , , , e, -, ., . , . e, .e, 5, :, : , ;, ; , ;e, ?, ? , ? e, _, _ , _ e, a, a , b, be, c, ce, d, de, e, e , f, fe, g, h, h , h e, he, i, i , ie, j, l, le, m, me, n, ne, o, o , o e, oe, p, pe, q, r, re, s, s , s e, se, t, te, u, ue, v, w, we, y, y , y e, ye, z, z , z e, ze, —, ’
+™ ->  , c, e
+u ->  , !, ! , ,, , , , e, ., . , ;, ; , ?, ? , _, _ , a, b, c, ce, d, d , d e, de, e, e , f, fe, g, ge, h, i, ie, k, ke, l, l , l e, le, m, m , me, n, n , ne, o, p, p , p e, pe, r, r , r e, re, s, s , s e, se, t, t , t e, te, v, w, we, x, y, y , z, —
+v -> a, a , e, e , i, i , ie, o, r, re, u, y, y 
+w ->  , !, ! , ,, , , , e, -, ., . , :, : , ;, ; , ?, ? , a, b, be, c, d, d , de, e, e , f, fe, g, h, he, i, i , l, l , le, m, me, n, n , n e, ne, o, o , o e, oe, p, r, re, s, s , se, t, v, ve, w, y, y , ’
+x ->  , ,, , , ., . , . e, ;, ; , a, c, ce, e, f, h, i, ie, o, p, pe, q, t, t , te, u, y
+y ->  , !, ! , ! e, (, ), ) , ,, , , , e, -, -e, ., . , .e, :, : , ;, ; , ; e, ?, ? , a, a , b, be, c, d, de, e, e , f, fe, g, h, he, i, ie, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, s , s e, se, t, te, u, v, w, we, y, ye, —, ’, ”
+z ->  , !, ! , ,, , , ., . , a, a , b, be, e, e , i, l, le, o, u, v, y, y , z
+   ->  ,   ,   e, a, d, e, le, n, t, w, we
+ e -> a, c, d, f, i, l, le, m, me, n, ne, p, q, s, te, u, v, ve, x, xe, ye
+_  -> a, b, c, e, i , o, t, w
+_e -> n
+-  -> e, i, y
+-e -> c, d, i, n, ne, x, ye
+—  ->   , f
+—e -> l, n
+,  ->   , (, +, 1, 2, _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, ie, j, k, l, le, m, me, n, ne, o, o , p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, ‘, “, “e
+,e -> a, i, n, x
+;  ->  ,   , a, a , b, be, c, ce, d, de, e, f, fe, g, h, he, i, i , i e, j, l, le, m, n, ne, o, p, pe, r, re, s, se, t, v, w, we, y, ye, ‘, “
+;e -> l
+:  ->  ,   , (, _, a, a , c, e, f, fe, h, he, i, i , j, m, o, s, t, w, y, ‘, “
+!  -> a, a , b, be, c, ce, d, de, e, f, g, ge, h, he, i, i , i e, ie, l, le, m, n, o, p, pe, r, re, s, se, t, u, v, w, y, ye
+?  -> a, a , b, be, c, d, de, e, f, g, h, he, i, i , j, l, le, m, n, o, p, pe, s, t, te, w, y, ye, “
+.  ->  ,   , 1, [, _, a, a , b, be, c, d, de, e, f, fe, g, ge, h, he, i, i , i e, ie, j, k, l, le, m, me, n, ne, o, o , p, pe, r, re, s, se, t, te, u, v, ve, w, we, y, ye, ‘, “, “e
+.e ->  , ., . , l, n, ve, x
+’  -> a, b, e, h, he, i , i e, j, l, r, re, s
+‘e -> n, x
+’e -> r 
+”  ->   , a, b, c, d, de, e, h, he, i, i , i e, m, o, r, re, s, t, w, we, y
+“e -> l, n, ve
+)  -> 6, _, a, b, be, c, d, e, i, m, s, t, w, we, y
+[e -> b
+]  ->   , i 
+*  ->   , e, s
+/e -> b
+%  -> o
+•  -> y
+0  -> c, d, s
+1  -> (, c, l, le, t, w
+2  -> c, l, le
+3  -> [, [e, a, b, be, c, l, le
+4  -> a, c
+5  -> c
+6  -> c
+7  -> a, c, o
+8  -> c, o
+9  -> c
+a  -> #, _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye
+ae ->  , l , r
+b  -> a, b, be, f, h, m, me, o, p, t, w, y
+be ->  ,  e, ,, , , ., . , ; , ? , a, b, c, d, d , de, e, f, g, g , h, he, i, l, m, n, ne, o, p, r, r , re, s, t, u, w, y, y , —
+c  -> a, b, be, c, d, f, fe, g, i, j, m, n, ne, o, p, s, t, te, u, w
+ce ->  ,  e, !, ! , ,, , , -, ., . , . e, : , ; , ?, a, c, d, d , d e, de, e, f, i, i , l, le, m, me, n, ne, o, p, r, r , re, s, s , s e, t, w, we, y, y , —
+d  ->   , (, - , 4 , _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, “
+de ->  ,  e, !, , , -, ., . , : , ;, ; , ?, ? , a, a , b, c, ce, d, d , d e, e, f, fe, g, ge, je, l, l , le, m, me, n, n , ne, o, p, pe, q, r, r , re, s, s , se, t, te, u, v, ve, w, w , we, x, z
+e  ->   , (, 1, 2, _, a, a , b, c, d, de, e, f, g, ge, h, i, i , j, k, l, m, me, n, o, p, pe, q, r, re, s, t, u, v, w, we, y, ye, z, —, “
+f  ->   , 2, _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, k, l, le, m, me, n, ne, o, p, pe, r, re, s, se, t, te, u, v, ve, w, we, y, ye, —
+fe ->  ,  e, !, ,, , , ., . , ; , ; e, ?, ? , a, b, c, de, e, e , i, l, le, m, n, o, r, r , re, s, t, te, u, ve, w, w , x, —
+g  ->   , (, _, a, a , b, be, c, d, de, e, f, fe, g, ge, h, he, i, i , l, le, m, me, n, ne, o, p, pe, r, re, s, se, t, te, u, v, ve, w, we, y, ye
+ge ->  ,  e, !, ! , ,, , , ., . , : e, ;, ; , ?, ? , a, c, d, d , f, h, i, l, l , le, me, n, ne, o, r, r , re, s, s , s e, t, t , ve, w, —, ’
+h  -> 1, _, a, a , b, be, c, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, k, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, w, we, y, ye
+he ->  ,   ,  e, ,, , , ., . , ;, ; , _ , a, b, be, c, ce, d, d , d e, de, e, e , f, fe, g, ge, h, he, i, je, k, l, le, m, m , m e, me, n, n , n e, ne, o, p, pe, q, r, r , r e, re, s, s , se, t, te, u, v, ve, w, we, y, y , y e, ye
+i  -> a, b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye
+ie ->  , !, ,, , , ., . , ; , ? , a, b, ce, d, d , d e, de, f, f , g, ge, k, ke, l, l , n, n , r, r , s, s , s e, t, t , te, u, u , v, ve, w, w , we, x
+j  -> 0
+je -> c, e, s, we
+k  -> #, (, a, a , b, be, c, d, de, e, f, g, h, he, i, i , j, l, m, me, n, ne, o, p, q, r, re, s, se, t, u, v, w, y
+ke ->  ,  e, !, ! , ,, , , ., . , : , ; , ? , a, a , d, d , d e, e, f, he, l, le, m, n, n , n e, ne, o, p, r, r , s, s , t, t , w, y, —
+l  ->   , 5, a, a , b, be, c, ce, d, de, e, f, fe, g, h, he, i, i , i e, ie, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, “
+le ->  ,  e, ), ,, , , , e, -, ., . , : , ;, ; , ; e, ?, ? , a, a , b, c, d, d , d e, de, e, f, fe, g, ge, h, i, l, le, m, m , me, n, n , ne, o, p, pe, r, r , re, s, s , se, t, t , te, u, v, ve, w, w , x, x , xe, y, y , ye, ’
+m  ->   , a, a , b, be, c, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, l, le, m, me, n, ne, o, p, pe, r, re, s, se, t, te, u, v, w, we, y, ye
+me ->  ,  e, !, ! , ! e, ,, , , , e, ,e, ., . , .e, :, : , ;, ; , ?, ? , _, _ , a, a , b, c, d, d , d e, de, e, f, g, h, he, i, l, le, m, me, n, n , o, p, r, r , r e, re, s, s , t, t , te, u, w, we, x, —
+n  ->   , (, 1, 2, 3, 3 , 4, 5, 6, 9, _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, k, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, “
+ne ->  ,   ,  e, !, ! , ,, , , , e, -, ., . , ;, ; , ?, ? , _ , a, c, ce, d, d , d e, e, f, fe, g, h, i, l, l , m, me, n, n , o, p, pe, q, r, r , r e, re, s, s , se, t, v, ve, w, w , w e, we, x, y, y , ye, —, ’, ’e
+o  -> $, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, je, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, “
+oe ->  , , , ., . , ; , a, d, d , f, l, le, m, n, ne, s, s , t, t , ve, x
+p  -> a, a , b, be, c, d, e, f, g, h, he, i, i , l, m, me, n, o, p, r, re, s, t, u, w, we, y
+pe ->  , ,, , , ., . , a, b, c, d, d , de, e, l, l , le, n, n , ne, o, r, r , r e, re, s, s , t, te
+r  -> (, 1, 1 , 2, 2 , 3, 3 , 4, 4 , 5, 5 , 6, 6 , 7, 7 , 8, 8 , 9, 9 , _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, ie, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye
+re ->  ,   ,  e, ! , ! e, ) , ,, , , , e, -, -e, ., . , .e, : , ;, ; , ; e, ?, ? , a, a , b, c, ce, d, d , d e, de, e, e , e e, f, fe, g, ge, h, he, i, j, je, k, l, l , le, m, me, n, n , ne, o, p, pe, q, r, r , r e, re, s, s , s e, se, t, t , te, u, v, ve, w, w , we, x, y, y , ye, —, ’
+s  ->   , (, *, - , - e, 1, 3 , 6, _, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, ie, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, “
+se ->  ,  e, ! , ,, , , , e, ., . , : , ; , ?, ? , a, a , b, be, c, d, d , d e, de, e, e , e e, f, fe, h, i, i , j, l, l , le, m, me, n, n , ne, o, p, q, r, r , re, s, s , s e, t, t , u, v, ve, w, we, x, xe, ye, —
+t  ->   , (, 1, 2, 4, 5, _, a, a , a e, b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, ie, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye, “
+te ->  ,  e, !, (, ,, , , -, ., . , : , ;, ; , a, c, d, d , d e, de, e, f, g, i, l, le, m, m , me, n, n , n e, ne, o, p, p , r, r , r e, re, s, s , t, v, ve, w, x, y, —, —e, ’
+™  ->   , c, d, de, e, l, m, t, w
+™e -> le
+u  ->   , a, a , b, be, c, d, de, e, f, fe, g, h, he, i, i , k, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, u, v, ve, w, we, y, ‘
+ue ->  ,   ,  e, ,, , , ., . , ;, ; , d, d , e, he, l, l , m, n, o, r, r , re, s, s , ve
+ve ->  ,  e, ! , ,, , , -, ., . , ; , ?, ? , a, b, be, c, d, d , d e, de, e, f, ge, h, he, i, l, l , m, me, n, n , ne, o, p, r, r , r e, re, s, s , se, t, te, u, x, y, y , ye, —
+w  -> (, a, a , b, be, c, d, de, e, f, fe, g, h, he, i, i , i e, j, je, k, l, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye
+we ->  ,  e, , , ; , a, b, b , d, d , d e, e, h, i, l, m, n, p, r, r , re, s, s , t, t , ve, w, we
+x  -> a, a , b, be, c, d, de, e, h, i, k, o, r, re, s, se, t, v, w, we, y, ye
+xe -> c, d, d , d e, m, r, s
+y  ->   , (, - , 1, 3, 7, _, _e, a, a , b, be, c, ce, d, de, e, f, fe, g, ge, h, he, i, i , i e, j, k, ke, l, le, m, me, n, ne, o, p, pe, q, r, re, s, se, t, te, u, v, ve, w, we, y, ye
+ye ->  , . , a, b, c, d, d , d e, e, e , i, l, le, m, n, ne, r, r , s, s , se, t, t , t e, ve, x, xe, ye
+z  -> e
+ze ->  , , , -, ; , a, d, d , n, n , r, s 
+  e -> le, m
+_ e -> x
+- e -> x
+, e -> a, i, l, m, n, q, r, s, ve, x
+; e -> a, te, ve
+: e -> n
+! e -> ve
+? e -> ve
+. e -> a, l, m, n, v, ve, x
+’ e -> x
+” e -> x
+) e -> d
+* e -> n
+a e -> n, u
+d e -> a, d, f, l, m, n, ne, q, r, s, te, ve, x, xe, ye
+e e -> n, ve
+f e -> a, c, d, i, l, le, m, n, q, r, te, v, ve, x, xe, ye
+g e -> a, b, c, f, l, le, m, n, p, s, ve, x, ye
+h e -> a, b, c, l, le, m, n, ne, p, v, ve, x, xe
+i e -> a, m, n, s, v, ve, x
+k e -> a, le, n, ve, ye
+l e -> a, d, f, le, m, n, ne, r, v, ve, x, xe, ye
+m e -> a, l, n, r, ve, x
+n e -> a, b, d, f, l, le, m, n, ne, q, r, s, te, u, v, ve, x, xe, ye
+o e -> a, c, d, f, l, le, m, n, s, v, ve, x, xe, ye
+p e -> b, n, ve
+r e -> a, f, l, m, n, ne, q, r, s, v, ve, x, xe, ye
+s e -> a, b, c, d, i, l, le, m, me, n, ne, q, s, v, ve, x, xe, ye
+t e -> a, c, d, f, i, l, le, m, n, ne, q, r, s, u, v, ve, x, xe
+™ e -> le
+u e -> n, x
+w e -> b, l, n, q, ve, x, ye
+x e -> xe
+y e -> -, a, d, l, le, m, n, ne, p, r, re, s, te, v, ve, x, xe, ye
+z e -> n
+tokens: 192
+tokens length >= 3: 35
+english length >= 3: 0/35 0.00%
+english sentences: 21/21 100.00%
+english dictionary: /usr/share/dict/american-english
+english dictionary entries: 102485
