@@ -1,3 +1,11 @@
+<br><br><br>
+
+> **Archived: Use this repo instead: (https://github.com/tomasflorian/DataStudies).**
+
+
+
+<br><br><br>
+
 # MonoFlow
 
 MonoFlow is a TypeScript experiment for unsupervised text segmentation. It starts with single-character tokens, repeatedly builds a directed transition graph over the token stream, and promotes frequent graph structure into longer compound tokens.
